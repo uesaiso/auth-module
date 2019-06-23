@@ -1,4 +1,4 @@
-## Extending Auth plugin
+# Extending Auth plugin
 
 If you have plugins that need to access `$auth`, you can use `auth.plugins` option.
 
@@ -6,9 +6,9 @@ If you have plugins that need to access `$auth`, you can use `auth.plugins` opti
 
 ```js
 {
-  modules: {
+  modules: [
     '@nuxtjs/auth'
-  },
+  ],
   auth: {
      plugins: [ '~/plugins/auth.js' ]
   }
